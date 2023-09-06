@@ -1,0 +1,5 @@
+.listResult {
+  flex: 3;
+  max-width: 1024px;
+  margin: auto;
+}

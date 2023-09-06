@@ -1,0 +1,114 @@
+.navbar {
+  height: 50px;
+  background-color: #003580;
+  display: flex;
+  justify-content: center;
+}
+.user {
+  color: white;
+  margin-right: -30px;
+  font-size: large;
+  font-weight: 600;
+}
+.user img {
+  margin-top: 8px;
+  border-radius: 50%;
+  width: 35px;
+  color: white;
+  cursor: pointer;
+}
+
+.mainUser img {
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.openModel {
+  position: absolute;
+  width: 150px;
+  height: 160px;
+  display: flex;
+  flex-direction: col;
+  margin-left: 500px;
+  z-index: 5;
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  margin-left: 1170px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 8px gray;
+}
+.hide {
+  display: none;
+}
+.openModel:hover {
+  display: block;
+}
+
+ul hr {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.openModel li {
+  display: flex;
+  flex-direction: row;
+  color: black;
+  padding: 5px;
+  cursor: pointer;
+  font-size: 15px;
+  letter-spacing: -0.5px;
+  transform: translate(0.5s);
+}
+.openModel li img {
+  margin-right: 15px;
+  width: 20px;
+  height: 20px;
+}
+.openModel li span {
+  position: absolute;
+  margin-left: 130px;
+}
+.openModel li:hover {
+  font-weight: 600;
+}
+.userLi {
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: -5px;
+}
+
+.navItems {
+  display: flex;
+}
+.navContainer {
+  width: 100%;
+  max-width: 1024px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-weight: 800;
+  font-size: x-large;
+}
+
+.navButton {
+  padding: 5px;
+  margin-left: 20px;
+  /* background: transparent; */
+  font-weight: 600;
+  font-size: 13px;
+  border-radius: 1px;
+
+  border: none;
+  padding: 8px 15px;
+  cursor: pointer;
+  color: #266ed3;
+  box-shadow: 1px 1px 2px #a6a5a5;
+}

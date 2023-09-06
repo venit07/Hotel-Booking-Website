@@ -1,0 +1,50 @@
+.featured {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1024px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  z-index: 1;
+}
+.box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.featuredItem {
+  cursor: pointer;
+  position: relative;
+  color: white;
+  border-radius: 3px;
+  overflow: hidden;
+  height: 250px;
+  flex: 1;
+}
+.featuredImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.featuredTitles {
+  gap: 8px;
+  display: flex;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+.featuredTitles span img {
+  margin-top: 10px;
+  width: 23px;
+  height: 18px;
+  z-index: 10;
+  opacity: 0.8;
+}
+.featuredTitles h2 {
+  height: 40px;
+  margin-bottom: 170px;
+}

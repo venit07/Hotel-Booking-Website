@@ -1,0 +1,92 @@
+.offerContainer {
+  max-width: 1024px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 5%;
+}
+.offerContainer h2 {
+  margin-left: 11px;
+}
+.uText {
+  font-size: 15px;
+  margin-left: 11px;
+  opacity: 0.8;
+}
+.offerList {
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+}
+.main {
+  margin: 10px;
+  height: 180px;
+  width: 50%;
+}
+.firstContainer {
+  display: flex;
+  flex-direction: row;
+  box-shadow: 0.2px 0.1px 8px #a6a5a5;
+}
+.text {
+  padding: 20px;
+}
+.itext {
+  margin-top: 5px;
+  font-weight: 700;
+}
+.text p {
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: 400;
+  opacity: 0.9;
+}
+.img1 img {
+  width: 180px;
+  height: 180px;
+}
+.text button {
+  margin-top: 20px;
+  border: none;
+  padding: 10px;
+  background-color: #0071c2;
+  color: white;
+  font-weight: 700;
+  border-radius: 3px;
+}
+.text button:hover {
+  background-color: #0360a2;
+}
+.secondContainer {
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  box-shadow: 0.2px 0.2px 8px #a6a5a5;
+}
+.img2 img {
+  width: 491px;
+}
+.text2 {
+  margin-top: -195px;
+  margin-left: 20px;
+  color: white;
+}
+.text2 p {
+  margin-top: 8px;
+  width: 289px;
+  font-size: 15px;
+  font-weight: 400;
+}
+.text2 button {
+  border: none;
+  padding: 9px;
+  margin-top: 15px;
+  border-radius: 3px;
+  color: white;
+  background-color: #0071c2;
+  font-weight: 700;
+}
+.text2 button:hover {
+  background-color: #0360a2;
+}

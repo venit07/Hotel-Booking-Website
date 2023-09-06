@@ -1,0 +1,88 @@
+.mainAds {
+  width: 1024px;
+  height: 300px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  border: 1px solid rgba(128, 128, 128, 0.182);
+  gap: 20px;
+}
+.h21 {
+  margin-top: 198px;
+  margin-left: 100px;
+}
+.h22 {
+  margin-left: 100px;
+}
+.h2 {
+  font-size: 25px;
+  color: white;
+  font-weight: 700;
+}
+
+.smallImg {
+  width: 65px;
+  height: 65px;
+  background-color: rgb(235 189 5);
+  border-radius: 50%;
+  margin-top: 200px;
+  margin-left: -20px;
+}
+.sliderDiv {
+  display: inline-block;
+  height: 32px;
+  margin: 0;
+  overflow: hidden;
+  vertical-align: bottom;
+  margin-left: 100px;
+  font-size: 25px;
+  color: white;
+  font-weight: 700;
+}
+.sliderUl {
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-name: e5b6226f3a;
+  display: inline-block;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  transform: translateY(0);
+  transition: transform 1s ease-in-out;
+  will-change: transform;
+}
+.middleDiv {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  background-color: #026fbe;
+  margin-top: -95px;
+  margin-left: 50px;
+}
+.middleDiv button {
+  border: none;
+  margin-left: 100px;
+  width: 266px;
+  height: 39px;
+  margin-top: 20px;
+  color: #026fbe;
+  font-weight: 700px;
+  cursor: pointer;
+}
+.middleDiv button:hover {
+  background-color: rgb(237, 231, 231);
+}
+.middleDiv {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  background-color: #026fbe;
+  margin-top: -95px;
+  margin-left: 50px;
+}
+.largeImg img {
+  width: 379px;
+  height: 240px;
+  margin-top: 30px;
+  margin-left: 53px;
+}
